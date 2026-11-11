@@ -178,6 +178,13 @@ pygments_style = "monokai"
 # html_theme = 'stsci_rtd_theme'
 # html_theme_path = [stsci_rtd_theme.get_html_theme_path()]
 html_theme = "furo"
+html_static_path = ["_static"]
+
+# furo theme light / dark logo options don't work with URLs?
+html_theme_options = {
+    "light_logo": "images/stsci_sec_combo_mark_horizonal_light_bkgd.svg",
+    "dark_logo": "images/stsci_sec_combo_mark_horizonal_dark_bkgd.svg",
+}
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
